@@ -12,13 +12,13 @@ from tglogging import TelegramLogHandler
 
 # Config 
 class Config(object):
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6647821815:AAH9o0tzMl7xsTOW2JkXKBKgRj4O4k7cEAg")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6998421847:AAFG-j7vvXsHtue3O3yawWlbbncA0zi_s5k")
     API_ID = int(os.environ.get("API_ID",  20319884))
     API_HASH = os.environ.get("API_HASH", "637e3ba6357aa3ba2f3bf5742e0fd066")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     SESSIONS = "./SESSIONS"
 
-    AUTH_USERS = os.environ.get('AUTH_USERS', '1183124209').split(',')
+    AUTH_USERS = os.environ.get('AUTH_USERS', '1183124209,5665231556').split(',')
     for i in range(len(AUTH_USERS)):
         AUTH_USERS[i] = int(AUTH_USERS[i])
 
@@ -53,11 +53,11 @@ class Store(object):
     CPTOKEN = "eyJhbGciOiJIUzM4NCIsInR5cCI6IkpXVCJ9.eyJpZCI6MzgzNjkyMTIsIm9yZ0lkIjoyNjA1LCJ0eXBlIjoxLCJtb2JpbGUiOiI5MTcwODI3NzQyODkiLCJuYW1lIjoiQWNlIiwiZW1haWwiOm51bGwsImlzRmlyc3RMb2dpbiI6dHJ1ZSwiZGVmYXVsdExhbmd1YWdlIjpudWxsLCJjb3VudHJ5Q29kZSI6IklOIiwiaXNJbnRlcm5hdGlvbmFsIjowLCJpYXQiOjE2NDMyODE4NzcsImV4cCI6MTY0Mzg4NjY3N30.hM33P2ai6ivdzxPPfm01LAd4JWv-vnrSxGXqvCirCSpUfhhofpeqyeHPxtstXwe0"
     SPROUT_URL = "https://discuss.oliveboard.in/"
     ADDA_TOKEN = ""
-    THUMB_URL = "https://telegra.ph/file/1f9bb59089588344bfb1f.jpg"
+    THUMB_URL = "https://telegra.ph/file/fd7a1e0e94a1f3e7d8b3a.jpg"
 
 # Format
 class Msg(object):
-    START_MSG = "**/pro !!**"
+    START_MSG = "**Running !!**"
 
     TXT_MSG = "Hey <b>{user},"\
         "\n\n`I'm Multi-Talented Robot. I Can Download Many Type of Links.`"\
