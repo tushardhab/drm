@@ -57,7 +57,7 @@ class Store(object):
 
 # Format
 class Msg(object):
-    START_MSG = "**Running !!**"
+    START_MSG = "**/pro**"
 
     TXT_MSG = "Hey <b>{user},"\
         "\n\n`I'm Multi-Talented Robot. I Can Download Many Type of Links.`"\
