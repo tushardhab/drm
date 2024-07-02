@@ -12,9 +12,9 @@ from tglogging import TelegramLogHandler
 
 # Config 
 class Config(object):
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7004713530:AAGrc2yP4FNgUyp0_j3nEyn0OnyrMFodiuE")
-    API_ID = int(os.environ.get("API_ID",  20995706))
-    API_HASH = os.environ.get("API_HASH", "3240c1615daa1fbbca45c34a9bb8ecf2")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7473074099:AAFFjtTaxTKA-q8LHgsCHq_Xljk5xb4E81I")
+    API_ID = int(os.environ.get("API_ID",  24798261))
+    API_HASH = os.environ.get("API_HASH", "fef280037f5759eccc540c6d7a279a14")
     DOWNLOAD_LOCATION = "./DOWNLOADS"
     SESSIONS = "./SESSIONS"
 
@@ -103,7 +103,7 @@ if __name__ == "__main__":
     
     async def main():
         await PRO.start()
-        # h = await PRO.get_chat_member(chat_id= int(-1001993763284), user_id=1183124209)
+        # h = await PRO.get_chat_member(chat_id= int(-1001993763284), user_id=6155478725)
         # print(h)
         bot_info = await PRO.get_me()
         LOGGER.info(f"<--- @{bot_info.username} Started --->")
